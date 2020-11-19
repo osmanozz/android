@@ -8,13 +8,16 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="399dp"
-        android:layout_height="55dp"
+        android:id="@+id/buttonLogin"
+        android:layout_width="196dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="104dp"
         android:background="@drawable/gradient"
         android:text="Log in"
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="296dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
 
     <TextView
         android:id="@+id/textView"
@@ -27,6 +30,7 @@
         android:textColor="#fff"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -44,11 +48,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="93dp"
         android:ems="10"
         android:hint="E-mail"
         android:inputType="textPersonName"
         android:textColorHint="#b6b2b2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -58,31 +64,27 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginBottom="516dp"
+        android:layout_marginTop="54dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPersonName"
         android:textColorHint="#b6b2b2"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
-        app:layout_constraintVertical_bias="0.195" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="405dp"
-        android:layout_height="47dp"
+        android:id="@+id/buttonRegisterr"
+        android:layout_width="195dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginBottom="94dp"
         android:text="Sign Up"
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="590dp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="140dp"
-        android:layout_height="36dp"
-        android:text="Make a new account"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="529dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLogin" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
